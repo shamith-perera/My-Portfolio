@@ -59,13 +59,16 @@ section {
 
 .social-icon {
     display: inline-block;
-    font-size: 24px;
-    margin-right: 10px;
-    color: black;
+    font-size: 30px;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
 }
+
 .social-icon:hover {
-    color: #303f9f !important; 
+    transform: scale(1.5);
 }
+
+
 
 @keyframes slideInRight {
     from {
